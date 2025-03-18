@@ -1,0 +1,67 @@
+# Compiled binary files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.cache
+*.ilk
+*.idb
+*.lib
+*.obj
+*.tlog
+*.vspscc
+*.vssscc
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dotnet tools
+.dotnet_tool/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Debugging
+*.vs/
+.vs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# IDE-specific files
+*.idea/
+*.vs/
