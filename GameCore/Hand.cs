@@ -1,21 +1,21 @@
 namespace GameCore;
 
 public class Hand{
-    private List<Dice> _dices;
+    public List<Dice> Dices { get; set; }
 
     public Hand(List<Dice> dices){
-        _dices = dices;
+        Dices = dices;
     }
 
     public void RollHand(){
-        foreach (var dice in _dices){
+        foreach (var dice in Dices){
            dice.Roll();
         }
     }
 
     public override string ToString()
     {
-        return string.Join(", ", _dices.Select(d => d.Face));
+        return string.Join(", ", Dices.Select(d => d.Face));
     }
 
 }
